@@ -18,3 +18,7 @@ export const fetchImages = async (query) => {
 export const incrementPage = () => {
     page += 1;
 };
+
+export const resetPage = () => {
+    page = 1;
+};
